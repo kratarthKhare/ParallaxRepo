@@ -114,5 +114,47 @@ h2{
    padding: 0.5rem 2.5rem;
    background-color: white;
 }
+
+
+/*for smaller screens*/
+
+@media (max-width:400px)
+{
+    
+
+    .fore{
+
+        transform: translateZ(-10px)  scale(2.2);
+    }
+
+    .back{
+
+        transform: translateZ(-20px)  scale(3.2);
+    }
+
+    h1{
+
+        font-size: 3rem;
+        letter-spacing: 1px;
+    }
+
+    h2{
+
+        font-size: 2rem;
+        padding: 0 3rem;
+    }
+
+    p{
+        font-size: 0.6rem;
+        padding: 0 3rem;
+        margin: 2rem 0;
+    }
+
+    .bg{
+
+        height: 250px;
+    }
+}
+
   
 
